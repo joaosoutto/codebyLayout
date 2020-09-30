@@ -1,0 +1,39 @@
+.content {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 4rem;
+  margin-top: 1.5rem;
+}
+
+.left,
+.right {
+  display: flex;
+  flex-direction: column;
+  min-height: 300px;
+  padding: 25px;
+  transition: all 0.3s;
+}
+
+.left {
+  align-items: flex-end;
+  background-image: url('../../../assets/analysis.jpeg');
+  background-position-y: center;
+  background-size: cover;
+  justify-content: flex-start;
+  width: 68%;
+}
+
+.right {
+  align-items: flex-start;
+  background-image: url('../../../assets/pictures.jpeg');
+  background-size: cover;
+  justify-content: flex-start;
+  width: 30%;
+}
+
+.left:hover,
+.right:hover {
+  box-shadow: 1.5px 1.5px 10px rgb(0, 136, 237);
+  opacity: 0.8;
+  cursor: pointer;
+}

@@ -1,0 +1,90 @@
+.section {
+  align-items: flex-end;
+  background-color: rgb(244, 244, 244);
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  min-height: 540px;
+  width: 75%;
+}
+
+.zone {
+  align-self: flex-start;
+  padding: 3rem 0 0 4rem;
+  position: absolute;
+  text-align: left;
+}
+
+.zone h2 {
+  color: rgb(56, 56, 56);
+  font-size: 48px;
+}
+
+.zone h5 {
+  color: rgb(56, 56, 56);
+}
+
+.section h1 {
+  color: rgb(225, 225, 225);
+  font-size: 1.8rem;
+}
+
+.section h5 {
+  color: rgb(225, 225, 225);
+  margin: 0;
+}
+
+.section h6 {
+  color: rgb(255, 255, 255);
+  letter-spacing: 0.1rem;
+}
+
+.colum {
+  background-color: rgb(0, 136, 237);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 15%;
+  transition: all 0.3s;
+}
+
+.upper {
+  align-items: flex-start;
+  background-color: rgb(0, 84, 153);
+  display: flex;
+  flex-direction: column;
+  height: 100px;
+  justify-content: center;
+  padding-left: 1.5rem;
+}
+
+.down {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding: 0 1rem;
+}
+
+.one {
+  height: 200px;
+}
+.two {
+  height: 250px;
+}
+.three {
+  height: 300px;
+}
+.four {
+  height: 350px;
+}
+.five {
+  height: 400px;
+}
+.six {
+  height: 450px;
+}
+
+.colum:hover {
+  box-shadow: 1.5px 1.5px 10px rgb(0, 22, 39);
+  opacity: 0.8;
+}

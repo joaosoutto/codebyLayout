@@ -1,0 +1,23 @@
+.section {
+    margin: 0 auto;
+    width: 75%;
+}
+
+.content {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.content h1 {
+    font-size: 34px;
+    color: rgb(56,56,56);
+}
+
+.content h5 {
+    color: rgb(56,56,56);
+    margin: 5px 0;
+}

@@ -1,0 +1,36 @@
+.content {
+  padding-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left,
+.right {
+  min-height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 25px;
+  transition: all 0.3s;
+}
+
+.left {
+  width: 30%;
+  background-image: url('../../../assets/nature.jpeg');
+}
+
+.right {
+  background-image: url('../../../assets/daily.jpeg');
+  background-position-y: center;
+  background-size: cover;
+  width: 68%;
+}
+
+.left:hover,
+.right:hover {
+  box-shadow: 1.5px 1.5px 10px rgb(0, 136, 237);
+  opacity: 0.8;
+  cursor: pointer;
+}

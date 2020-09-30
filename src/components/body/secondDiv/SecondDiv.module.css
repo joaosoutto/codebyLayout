@@ -1,0 +1,19 @@
+.content {
+  align-items: flex-start;
+  background-image: url('../../../assets/together.jpeg');
+  background-position-y: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 1.5rem;
+  min-height: 300px;
+  padding: 25px;
+  transition: all 0.3s;
+}
+
+.content:hover {
+  box-shadow: 1.5px 1.5px 10px rgb(0, 136, 237);
+  cursor: pointer;
+  opacity: 0.8;
+}
